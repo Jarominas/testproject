@@ -1,7 +1,9 @@
-const result = prompt("Are you 18 years old?", "");
+const numberOfFilms = prompt("How much films have you seen?", "");
 
-if (result >= 18) {
-    alert("Welcome");
-} else {
-    alert("You are not allowed");
-}
+const personalMovieDb = {
+    count: "",
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
